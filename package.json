@@ -1,0 +1,23 @@
+{
+  "name": "doozer",
+  "version": "0.0.0",
+  "description": "An HTML-smart app build process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/potch/node-doozer"
+  },
+  "keywords": [
+    "node",
+    "build",
+    "minify"
+  ],
+  "author": "potch",
+  "license": "BSD",
+  "dependencies": {
+    "jsdom": "~0.6.5"
+  }
+}
