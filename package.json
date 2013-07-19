@@ -1,6 +1,6 @@
 {
   "name": "doozer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An HTML-smart app build process.",
   "main": "lib/doozer.js",
   "scripts": {
