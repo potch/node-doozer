@@ -1,5 +1,5 @@
 {
-  "name": "doozer",
+  "name": "doozer-build",
   "version": "0.0.1",
   "description": "An HTML-smart app build process.",
   "main": "lib/doozer.js",
