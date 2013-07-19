@@ -2,7 +2,7 @@
   "name": "doozer",
   "version": "0.0.0",
   "description": "An HTML-smart app build process.",
-  "main": "index.js",
+  "main": "lib/doozer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,9 +15,14 @@
     "build",
     "minify"
   ],
+  "bin": {
+    "doozer": "bin/doozer"
+  },
   "author": "potch",
   "license": "BSD",
   "dependencies": {
-    "jsdom": "~0.6.5"
+    "jsdom": "~0.6.5",
+    "uglify-js": "~2.3.6",
+    "clean-css": "~1.0.10"
   }
 }

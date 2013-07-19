@@ -1,0 +1,8 @@
+#! /usr/bin/env node
+
+"use strict";
+
+var doozer = require('../lib/doozer');
+var filename = process.argv[2];
+
+doozer.build(filename);
